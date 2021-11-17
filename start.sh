@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo apt update -y
 sudo apt install docker.io -y
 sudo docker pull nvcr.io/nvidia/clara-train-sdk:v4.0 &
 echo "0.0.0.0 flserver" >> /etc/hosts
